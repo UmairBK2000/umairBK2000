@@ -1,0 +1,35 @@
+* {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	background-color: #360905;
+	display: inline;
+}
+
+p {
+	text-align: center;
+	background-color: #360905;
+}
+
+.portfolio {
+	background-color: #473b38;
+	box-shadow: 10px;
+   font-size: 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.portfolio:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.portfolio:visited {
+	color: green;
+}

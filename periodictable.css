@@ -1,0 +1,100 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+
+.portfolio {
+	background-color: #473b38;
+	box-shadow: 10px;
+   font-size: 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.portfolio:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.portfolio:visited {
+	color: green;
+}
+/*************table*****************/
+
+
+/*table data (td)*/
+
+
+td {
+    border: 2px solid white; 
+    text-align: center;
+    height: 125px;
+    width: 100px;
+	overflow: scroll;
+}
+
+td.blank {
+	border: none;
+}
+
+td.nonmetal {
+	background-color: #e79df2;
+}
+
+td.noblegas {
+	background-color: #bdac97;
+}
+
+td.alkalimetal {
+	background-color: #cf512b;
+}
+
+td.alkalineearth {
+	background-color: #f29c07;
+}
+
+td.semimetal {
+	background-color: #038c85;
+}
+
+td.basicmetal {
+	background-color: #11b505;
+}
+
+td.transitionmetal {
+	background-color: #998f00;
+}
+
+td.lanthanides {
+	background-color: #0a306e;
+}
+
+td.actinides {
+	background-color: #4c871f;
+}
+
+td.unknown {
+   background-color: #454743;
+}
+
+/* other*/
+
+ p.num {
+    font-size: 6px;
+}
+
+p.name {
+    font-size: 9px;
+}
+
+p.element {
+	font-size: 20px;
+}
+
+
